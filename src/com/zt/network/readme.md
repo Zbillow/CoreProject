@@ -1,4 +1,4 @@
-Socket 编程
+# Socket 编程
 
 套接字使用TCP提供了两台计算机之间的通信机制。 客户端程序创建一个套接字，并尝试连接服务器的套接字。
 当连接建立时，服务器会创建一个Socket对象。客户端和服务器现在可以通过对Socket对象的写入和读取来进行进行通信。
@@ -15,7 +15,7 @@ GreetingClient 是一个客户端程序，该程序通过socket连接到服务�
 GreetingServer 是一个服务器端应用程序，使用Socket来监听一个指定的端口。
 
 -------------------------------------------------------------------
-邮件发送
+# 邮件发送
 发送邮件需要开通SMTP服务,获取到授权码.
 使用Java应用程序发送E-mail十分简单，但是首先你应该在你的机器上安装JavaMail API 和Java Activation Framework (JAF) 。
 你可以在 JavaMail http://www.oracle.com/technetwork/java/index-138643.html 下载最新的版本。
