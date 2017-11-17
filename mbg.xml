@@ -12,9 +12,9 @@
 			<property name="suppressAllComments" value="true" />
 		</commentGenerator>
     <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-        connectionURL="jdbc:mysql://192.168.0.60:3306/taomi?characterEncoding=utf-8&amp;useSSL=true"
-        userId="admin"
-        password="hello1234">
+        connectionURL="jdbc:mysql://localhost:3306/xxxx?characterEncoding=utf-8&amp;useSSL=true"
+        userId="root"
+        password="root">
     </jdbcConnection>
 
     <javaTypeResolver >
