@@ -20,3 +20,6 @@ DefaultShellCallback callback = new DefaultShellCallback(overwrite);
 MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
 myBatisGenerator.generate(null);
 直接执行后刷新项目,就可以看到生成的文件了
+
+#DateUtil
+常用日期操作工具类
